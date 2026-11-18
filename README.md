@@ -27,10 +27,10 @@ Values used: P = 0.08, I = 0.02, D = 0.028
 ## Results
 
 **Case 1: no controller.** The drone keeps tilting further after the gust and never recovers.
-![No controller](drone_nocontroller.fig)
+![No controller](drone_nocontroller.png)
 
 **Case 2: PID controller.** The drone tilts by about [X]° and returns to level within about [Y] seconds.
-![With PID controller](drone_controller.fig)
+![With PID controller](drone_controller.png)
 
 ## Effect of each part of the controller
 - **D = 0:** the drone oscillates and never settles, since nothing damps the motion.
